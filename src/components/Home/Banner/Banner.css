@@ -1,0 +1,39 @@
+.banner-wrapper {
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    url("https://i.ibb.co/YWtnCFb/MG-7137.jpg");
+
+  display: flex;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.banner-wrapper h1 {
+  font-size: 60px;
+  color: white;
+}
+
+.banner-wrapper p {
+  font-size: 24px;
+  color: white;
+}
+
+.banner-wrapper button {
+  padding: 13px 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .banner-wrapper {
+    height: auto;
+    padding: 80px 0;
+  }
+}
